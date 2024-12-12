@@ -2,8 +2,8 @@
 
 Клонируйте репозиторий:
 
-git clone `<repository-url>`
-cd `<repository-folder>`
+git clone <repository-url>
+cd <repository-folder>
 
 Создайте виртуальное окружение:
 
