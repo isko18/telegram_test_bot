@@ -21,6 +21,8 @@ python -m venv venv
 
 Замените ```wallet_address``` на ваш реальный адрес кошелька.
 
+Вствавьте эту ссылку ```https://rpc.ston.fi/``` сюда 
+
 Запустите бота:
 
 ```python bot.py```
