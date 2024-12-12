@@ -1,10 +1,31 @@
-1. Сначала нужно скачать все зависимость
+Как правильно запускать
 
-### pip install -r requirements.txt
+Клонируйте репозиторий:
 
-2. Настроить своего телеграмм бота, нужно поствить свой токен
+git clone `<repository-url>`
+cd `<repository-folder>`
 
+Создайте виртуальное окружение:
 
-3. "userWalletAddress": "your_wallet_address_here", тут вставляем адрес кошёлка
+python -m venv venv
+source venv/bin/activate  # Для Windows: venv\Scripts\activate
 
-4. запуск бота python bot.py
+Установите зависимости:
+
+pip install -r requirements.txt
+
+Настройте бота:
+
+Замените API_TOKEN на ваш токен Telegram-бота в файле bot.py.
+
+Замените your_wallet_address_here на ваш реальный адрес кошелька.
+
+Запустите бота:
+
+python bot.py
+
+Используйте команды бота в Telegram:
+
+/start — для инициализации бота.
+
+/check — для ручной проверки фармов.
